@@ -4,18 +4,18 @@ Sistema de gerenciamento voltado para a organização de um Terreiro de Umbanda.
 
 ## 📌 Objetivos
 
-- Centralizar o cadastro de membros, visitantes e guias espirituais
-- Planejar e registrar giras e eventos religiosos
-- Controlar funções e participações nas giras
-- Registrar e consultar mensalidades e artefatos rituais
+- Centralizar o cadastro de membros (filhos de santo) e visitantes
+- Planejar e registrar giras e eventos religiosos, incluindo indicações e listas de compras
+- Controlar a presença e participação de membros e visitantes nas giras
+- Registrar e consultar mensalidades e controlar o estoque de artefatos rituais
 - Organizar o calendário e histórico das atividades da casa
+- Gerenciar guias espirituais, suas linhas e preferências
+- Associar orixás aos membros (pai/mãe de cabeça)
 
 ## 🚀 Tecnologias Utilizadas
 
-- Java 17 + Spring Boot
-- Maven ou Gradle
-- JPA / Hibernate
-- MySQL ou PostgreSQL
+- Java 21 + Spring Boot
+- MySQL
 - PlantUML / Draw.io (documentação)
 - Git + GitHub
 
@@ -24,7 +24,7 @@ Sistema de gerenciamento voltado para a organização de um Terreiro de Umbanda.
 Gerenciamento-Casa-de-Axe/
 ├── docs/ → Documentação técnica
 ├── backend/ → Projeto Java Spring Boot
-├── database/ → Scripts SQL
+├── database/ → Scripts SQL (contém o esquema do banco de dados, incluindo entidades para mensalidades e estoque)
 └── README.md → Este arquivo
 
 ## 📖 Documentação
@@ -33,6 +33,6 @@ Veja a pasta [`docs/`](./docs/) para entender a visão geral do sistema, casos d
 
 ## 🧙 Autor
 
-Wanderson Almeida de Mello  
-📧 wandersonalmeidamello@gmail.com  
+Wanderson Almeida de Mello
+📧 wandersonalmeidamello@gmail.com
 🔗 [LinkedIn](https://www.linkedin.com/in/wandersonamello/)
