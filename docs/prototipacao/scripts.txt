@@ -1,0 +1,48 @@
+Scripts Detalhados para Geração de Telas no Canva
+1. Tela de Login
+
+Crie uma tela de login para um aplicativo de gestão mobile (formato 9:16), com um design ultra minimalista, funcional e moderno. O fundo deve ser branco. Centralizado na tela, posicione um espaço para um logo, seguido por dois campos de formulário com bordas finas e cinzas: um para "Usuário" e outro para "Senha". O botão de ação principal, "Entrar", deve ser grande, sólido, na cor vermelha, com cantos arredondados, e posicionado em uma zona de fácil alcance para o polegar, abaixo dos campos de texto. Utilize uma fonte sans-serif de alta legibilidade, como a Inter ou a Montserrat.
+
+2. Tela Principal (Dashboard)
+
+Gere um dashboard moderno para um aplicativo de gestão mobile (9:16), para o perfil de Administrador. O layout deve ser uma lista vertical funcional de botões de navegação, ocupando a maior parte da tela. Cada botão deve ser um retângulo de cantos arredondados com fundo branco e borda sutil, contendo um ícone temático de linha ('line icon') na cor vermelha à esquerda, e um rótulo de texto claro à direita. Crie cinco botões: "🗓️ Calendário", "🥁 Giras", "🔱 Comunidade", "🌿 Gestão do Terreiro" e "⚙️ Configurações". O design deve ser limpo, com espaçamento uniforme entre os botões.
+
+3. Tela "Agenda" 🥁
+
+Crie a tela "Agenda" para um aplicativo de gestão (9:16), com um design limpo e informativo. No topo, posicione um seletor de visualização moderno ('toggle switch') com duas opções destacadas: "Calendário" e "Lista". Abaixo, renderize uma grade de calendário mensal que seja visualmente leve; os dias com eventos devem ser marcados com um simples ponto na cor vermelha. No canto inferior direito, posicione um botão de ação flutuante (FAB) vermelho com um ícone de "+" para adicionar um novo evento.
+
+4. Tela de Detalhes da Gira
+
+Projete a tela de "Detalhes da Gira" para um aplicativo mobile (9:16). A interface deve ter uma hierarquia visual clara, com o título da Gira em uma fonte grande e de peso 'bold' no topo. Abaixo, organize as informações em seções com subtítulos claros e em uma fonte menor: "Data e Hora", "Indicações" e "Lista de Compras". Na parte inferior da tela, fixo, deve haver um botão de ação principal, sólido, na cor vermelha, com o texto "Registrar Presença", garantindo fácil acesso.
+
+5. Tela de Registro de Presença
+
+Elabore uma tela de registro de presença para um app mobile (9:16), com um design de checklist funcional e sem distrações. No topo, o título "Registro de Presença" e um subtítulo com o nome e a data da Gira. Abaixo, uma lista vertical rolável de nomes. Cada nome na lista deve ser seguido por um checkbox grande e fácil de tocar. A interface deve ser otimizada para seleção rápida de vários itens. Um botão "Salvar Presenças", sólido e vermelho, deve estar fixo na parte inferior da tela.
+
+6. Tela "Comunidade" 🔱
+
+Crie uma interface de gestão de comunidade para um app mobile (9:16), utilizando uma navegação por abas ('tabs') modernas e limpas no topo. As abas devem ter os títulos: "Membros", "Visitantes" e "Guias Espirituais". A aba ativa deve ter um indicador visual claro, como um sublinhado na cor vermelha. Abaixo das abas, uma lista de cards simples deve exibir os nomes correspondentes à aba ativa. Um FAB vermelho com um ícone de "+" deve estar presente para adicionar novos registros contextualmente.
+
+7. Tela de Detalhes do Membro
+
+Desenhe uma tela de perfil de membro para um app mobile (9:16), com o layout de um dossiê informativo e bem organizado. No topo, posicione um card de destaque com um placeholder para a foto, o nome completo do membro em fonte grande e um subtítulo para o cargo/função. Abaixo, agrupe as informações em cards distintos com subtítulos claros: "Dados Pessoais", "Histórico na Casa", "Guias Associados". No canto superior direito do cabeçalho, posicione um ícone de "editar" (lápis).
+
+8. Tela de Cadastro/Edição de Membro/Guia
+
+Gere um formulário de cadastro longo e bem estruturado para um app mobile (9:16). Utilize subtítulos em vermelho para criar seções visuais e organizar os campos: "Informações Pessoais", "Datas na Casa", "Coroação e Orixás". Os campos de seleção "Pai de Cabeça" e "Mãe de Cabeça" devem ser renderizados em um estado visualmente desabilitado (cor de fundo cinza claro, texto cinza) para comunicar que não estão ativos. Os botões de ação "Salvar" (sólido, vermelho) e "Cancelar" (estilo 'ghost', apenas texto) devem estar fixos na base da tela.
+
+9. Tela "Gestão do Terreiro" 🌿
+
+Crie uma tela de gestão de recursos para um app mobile (9:16), com uma interface de abas no topo com os títulos "Mensalidades" e "Estoque". A aba ativa deve ter um indicador visual vermelho. Para a aba "Mensalidades", mostre uma lista de transações recentes, onde cada item exibe nome do membro, valor e data. Para a aba "Estoque", mostre uma lista de itens com nome e quantidade atual. Um FAB vermelho com + deve estar visível para adicionar novos registros.
+
+10. Tela de Detalhes do Item de Estoque
+
+Projete a tela de detalhes de um item de estoque para um app de gestão (9:16), com um design orientado à ação. No topo, um card de status grande e destacado deve exibir o "Nome do Item" e a "Quantidade Atual" em fontes grandes. Logo abaixo, dois botões de ação proeminentes, lado a lado e com ícones: "+ Registrar Entrada" e "- Registrar Saída". O restante da tela deve ser uma lista rolável do histórico de movimentações, com valores de entrada em verde e saídas em vermelho para rápida identificação visual.
+
+11. Tela de Configurações
+
+Elabore uma tela de "Configurações" para um app de gestão (9:16), com um design de lista simples e limpo. A tela deve conter uma lista vertical de itens de navegação. Cada item, como "Orixás", "Linhas Espirituais" e "Dados do Terreiro", deve ter um título claro e um ícone de "maior que" (>) à direita, indicando que a ação de clique abrirá uma nova visão (idealmente um modal de edição sobre a tela atual).
+
+12. Tela "Meu Perfil"
+
+Crie a tela "Meu Perfil" para o usuário final de um aplicativo de Umbanda (9:16). O design deve ser um dashboard pessoal, informativo e estritamente de visualização, sem elementos de edição. No topo, uma saudação personalizada ("Olá, [Nome]"). Abaixo, uma navegação por abas para organizar o conteúdo de forma clara: "Meus Dados", "Meus Guias", "Minhas Giras", "Minhas Contribuições". O conteúdo de cada aba deve ser apresentado como texto e listas bem formatadas e de fácil leitura.
