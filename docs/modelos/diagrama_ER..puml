@@ -1,0 +1,123 @@
+@startuml
+skinparam linetype ortho
+skinparam classAttributeIconSize 0
+skinparam backgroundColor #fefefe
+
+abstract class Pessoa {
+  +id
+  +nome
+  +telefone
+}
+
+class Membro {
+  +id
+  +data_nascimento
+  +data_entrada
+  +data_coroacao
+  +pai_de_cabeca
+  +mae_de_cabeca
+  +terreiro_id
+}
+
+class Visitante {
+  +id
+  +observacoes
+}
+
+class Terreiro {
+  +id
+  +nome
+  +endereco
+  +data_abertura
+}
+
+class Gira {
+  +id
+  +titulo
+  +data_inicio
+  +data_fim
+  +indicacoes
+  +lista_compras
+  +terreiro_id
+}
+
+class Orixa {
+  +id
+  +nome
+}
+
+class GuiaEspiritual {
+  +id
+  +nome
+  +membro_id
+  +linha_id
+  +preferencias
+  +pedidos
+  +elementos_utilizados
+}
+
+class LinhaEspiritual {
+  +id
+  +nome
+  +descricao
+}
+
+class PresencaGiraMembro {
+  +membro_id
+  +gira_id
+}
+
+class PresencaGiraVisitante {
+  +visitante_id
+  +gira_id
+}
+
+class MembroGuia {
+  +membro_id
+  +guia_id
+}
+
+class Mensalidade {
+  +id
+  +valor
+  +data_pagamento
+  +periodo_referencia
+  +membro_id
+}
+
+class ItemEstoque {
+  +id
+  +nome
+  +quantidade_atual
+  +unidade_medida
+}
+
+class MovimentoEstoque {
+  +id
+  +data_movimento
+  +tipo_movimento // ENTRADA, SAIDA
+  +quantidade
+  +item_estoque_id
+  +gira_id
+}
+
+Pessoa <|-- Membro
+Pessoa <|-- Visitante
+Membro --> Terreiro : pertence
+Membro --> Orixa : pai_de_cabeca
+Membro --> Orixa : mae_de_cabeca
+Gira --> Terreiro : ocorre_em
+GuiaEspiritual --> Membro : incorpora
+GuiaEspiritual --> LinhaEspiritual : pertence
+PresencaGiraMembro --> Membro
+PresencaGiraMembro --> Gira
+PresencaGiraVisitante --> Visitante
+PresencaGiraVisitante --> Gira
+MembroGuia --> Membro
+MembroGuia --> GuiaEspiritual
+
+Mensalidade --> Membro : paga
+MovimentoEstoque --> ItemEstoque : refere_se_a
+MovimentoEstoque --> Gira : relacionado_a_gira
+
+@enduml
