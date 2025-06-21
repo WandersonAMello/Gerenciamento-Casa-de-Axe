@@ -10,23 +10,23 @@
    1.  O Ator acessa a funcionalidade de "Gerenciar Membros".
    2.  O sistema exibe a interface de gerenciamento de membros.
    3.  O Ator pode escolher uma das seguintes ações:
-      * **Cadastrar Novo Membro:**
-         1.  O Ator preenche os campos com os dados pessoais do membro (nome, telefone, data de nascimento), data de entrada na casa e data de coroação.
-         2.  O sistema valida os dados inseridos.
-         3.  O sistema salva as informações do novo membro.
-      * **Visualizar Membros Existentes:**
-         1.  O sistema exibe uma lista de todos os membros cadastrados.
-         2.  O Ator pode utilizar filtros ou a barra de pesquisa para localizar membros específicos.
-      * **Editar Membro Existente:**
-         1.  O Ator seleciona um membro da lista para edição.
-         2.  O sistema carrega os dados do membro na interface de edição.
-         3.  O Ator modifica os campos desejados.
-         4.  O sistema valida as alterações.
-         5.  O sistema atualiza as informações do membro.
-      * **Remover Membro Existente:**
-         1.  O Ator seleciona um membro da lista para remoção.
-         2.  O sistema solicita uma confirmação da remoção.
-         3.  O sistema remove o membro do registro.
+          * **Cadastrar Novo Membro:**
+             1.  O Ator preenche os campos com os dados pessoais do membro (nome, telefone, data de nascimento), data de entrada na casa e data de coroação.
+             2.  O sistema valida os dados inseridos.
+             3.  O sistema salva as informações do novo membro.
+          * **Visualizar Membros Existentes:**
+             1.  O sistema exibe uma lista de todos os membros cadastrados.
+             2.  O Ator pode utilizar filtros ou a barra de pesquisa para localizar membros específicos.
+          * **Editar Membro Existente:**
+             1.  O Ator seleciona um membro da lista para edição.
+             2.  O sistema carrega os dados do membro na interface de edição.
+             3.  O Ator modifica os campos desejados.
+             4.  O sistema valida as alterações.
+             5.  O sistema atualiza as informações do membro.
+          * **Remover Membro Existente:**
+             1.  O Ator seleciona um membro da lista para remoção.
+             2.  O sistema solicita uma confirmação da remoção.
+             3.  O sistema remove o membro do registro.
 * **Fluxos Alternativos:**
    * **FA1.1: Campos Obrigatórios Não Preenchidos/Inválidos:**
       1.  No passo 3.1.2 ou 3.3.4 (Cadastrar/Editar Membro), se o Ator não preencher campos obrigatórios ou fornecer dados inválidos, o sistema exibe uma mensagem de erro indicando os campos problemáticos.
